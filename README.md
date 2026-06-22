@@ -2,7 +2,23 @@
 
 This app reads recent news about a stock and tells you whether the coverage has been mostly positive, negative, or mixed.
 
+## Screenshots
+
+**Overview — sentiment summary and sentiment over time**
+
 <img src="screenshots/overview.png" alt="Overview of the app showing the title, sentiment cards, and the sentiment-over-time chart" width="800">
+
+<br><br>
+
+**Sentiment distribution**
+
+<img src="screenshots/sentiment-distribution.png" alt="Sentiment distribution bar chart" width="800">
+
+<br><br>
+
+**Article table and news summary**
+
+<img src="screenshots/news-summary.png" alt="The article table and the written news summary" width="800">
 
 ## What you need
 
@@ -45,10 +61,6 @@ In the sidebar you choose a ticker symbol (like `AAPL`), how many days of news t
 - A chart of the positive/negative/neutral breakdown
 - A table of the articles it found
 - A short written summary of what the news was about
-
-<img src="screenshots/sentiment-distribution.png" alt="Sentiment distribution bar chart and the start of the article table" width="800">
-
-<img src="screenshots/news-summary.png" alt="The article table and the written news summary" width="800">
 
 ## The two sentiment engines
 
