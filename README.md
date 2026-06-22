@@ -2,24 +2,6 @@
 
 This app reads recent news about a stock and tells you whether the coverage has been mostly positive, negative, or mixed.
 
-## Screenshots
-
-**Overview — sentiment summary and sentiment over time**
-
-<img src="screenshots/overview.png" alt="Overview of the app showing the title, sentiment cards, and the sentiment-over-time chart" width="800">
-
-<br><br>
-
-**Sentiment distribution**
-
-<img src="screenshots/sentiment-distribution.png" alt="Sentiment distribution bar chart" width="800">
-
-<br><br>
-
-**Article table and news summary**
-
-<img src="screenshots/news-summary.png" alt="The article table and the written news summary" width="800">
-
 ## What you need
 
 - Python installed (3.10 or newer).
@@ -78,3 +60,21 @@ The Custom LLM option expects an OpenAI-compatible chat completions endpoint, so
 ## License
 
 Released under the [MIT License](LICENSE).
+
+## Screenshots
+
+**Overview — sentiment summary and sentiment over time**
+
+<img src="screenshots/overview.png" alt="Overview of the app showing the title, sentiment cards, and the sentiment-over-time chart" width="800">
+
+<br><br>
+
+**Sentiment distribution**
+
+<img src="screenshots/sentiment-distribution.png" alt="Sentiment distribution bar chart" width="800">
+
+<br><br>
+
+**Article table and news summary**
+
+<img src="screenshots/news-summary.png" alt="The article table and the written news summary" width="800">
