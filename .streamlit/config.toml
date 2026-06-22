@@ -1,0 +1,8 @@
+# Disable Streamlit's source file watcher. The default ("auto") recursively
+# introspects imported modules for hot-reload, which scans torch/transformers
+# internals on every startup — slow, and the source of spurious
+# "No module named 'torchvision'" warnings. This app doesn't need hot-reload to
+# function, so turning the watcher off speeds up startup and silences the noise.
+[server]
+fileWatcherType = "none"
+headless = true

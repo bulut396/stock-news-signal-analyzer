@@ -1,0 +1,9 @@
+venv/
+__pycache__/
+*.pyc
+.env
+.streamlit/secrets.toml
+
+# Build-prompt / instruction files — not part of the published app
+CLAUDE_CODE_INSTRUCTIONS_stock-news-signal-analyzer.md
+claude-code-*.md
